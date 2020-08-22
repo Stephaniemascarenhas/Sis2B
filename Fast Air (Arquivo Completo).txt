@@ -1,0 +1,62 @@
+O aplicativo foi lançado por uma fabricante automotiva que lançou os primeiros carros elétricos voadores, o intuito é familiarizar o público com o novo produto, quebrar paradigmas e difundir o marketing por meio dessa ferramenta. A monetização será arrecadada através das viagens. Além disso, os custos serão fomentados pela empresa administradora do holding (conglomerado de empresas), por fazer parte da propaganda.
+
+Análise:
+I. Aplicação Nativa (disponível somente para IOS e Android).
+
+II. O passageiro solicitará a viagem pelo App FastAir.
+
+III. Os passageiros poderão escolher um destino com no máximo 10 minutos de duração, que será informado no aplicativo, com o valor máximo de US$ 10,00 dólares por viagem, conforme previsto.
+
+IV. O sistema só permitirá que o passageiro solicite a viagem, se o passageiro tiver +16 anos.
+
+V. Por questões de segurança, é obrigatório o uso do cinto de segurança para condutor e passageiros e não será permitido ingerir bebida alcoólica no interior do veículo.
+
+VI. O pouso será na vertical, respeitando a arquitetura urbana.
+
+VII. Velocidade máxima permitida pelo software: 150 km/h.
+
+VIII. Decolagem negada se: temperatura > -2 °C, tempestades com relâmpagos e nevasca.
+
+Observação: Em hipótese alguma será permitida a realização de viagens fora das condições citadas anteriormente.
+
+Design:
+
+I. O sistema terá um controle de acesso (Login e Senha), mapa de localização (Local de Partida → Destino), termômetro para indicar a temperatura, velocidade do vento e umidade do ar.
+
+II. O usuário deverá realizar o cadastro, contendo as seguintes informações:
+Nome, Sobrenome, Idade, Documento de Identidade Pessoal, Telefone, Telefone de Emergência, Endereço de e-mail, Informações de Pagamento.
+
+III. Todas informações fornecidas, serão verificadas e autenticadas em até 02 minutos, a confirmação será enviada pelo e-mail pessoal e notificada pelo próprio app.
+Após a aprovação, cada cliente receberá seu login e senha.
+
+IV. Acessando o aplicativo, o usuário visualizara os veículos disponíveis em sua proximidade.
+
+V. As viagens podem ser de até 120 km, considerando que o carro gasta R$0,08 por km rodado quando abastecido com energia vegetal (etanol).
+
+VI. Selecionando o veículo, o passageiro confirmará se tem interesse em realizar a viagem, após confirmação, ele deverá realizar o pagamento através do aplicativo, utilizando o cartão de crédito (pré-cadastrado em Informações de Pagamento), caso a viagem seja cancelada o valor será estornado no cartão cadastrado.
+
+Codificação:
+
+I. Após pesquisar diversas plataformas para desenvolvimento do app, escolhemos o Kivy que é uma biblioteca open source, possui o Python como base para o desenvolvimento de aplicações multiplataforma, seja para desktop (Windows, Linux e MacOS) ou mobile (Android e iOS).
+
+II. Será utilizado o Visual Studio Code → Framework Flask → Bibliotecas contendo (Mapas, GPS, Localização etc.) → SQLite3 (Banco de Dados).
+
+Teste:
+
+I. Será utilizado o emulador do Visual Studio Code, para realização de testes virtuais no aplicativo.
+
+II. Será designada uma versão BETA do aplicativo para testes com um grupo pequeno de usuários, através desse primeiro contato com o aplicativo e com o produto, estudaremos o perfil dos clientes para aprimorar o serviço oferecido.
+
+III. Enviar um upload para a Google PlayStore (Android) e App Store (IOS).
+
+IV. O valor pago será verificado antes do início da viagem, autenticando se as informações do pagamento, estão corretas para aprovação.
+
+V. O código fonte será administrado pelos programadores mantenedores.
+
+Operação:
+
+I. A equipe será composta de maneira que todas as áreas possam trabalhar de forma eficiente e harmônica, em benefício do negócio.
+
+II. A previsão de entrega do front-end do app está prevista para quatros dias úteis, operando no horário comercial, o back-end também.
+
+III. Os testes serão divididos em duas partes: entregar o app funcionando na versão beta para a PlayStore e para a IOS por um mês, coleta de feedbacks dos usuários e aplicar as sugestões sugeridas.
