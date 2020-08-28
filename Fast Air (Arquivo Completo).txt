@@ -1,3 +1,7 @@
+Projeto idealizado por: Stephanie Mascarenhas de Souza(1903960)
+                        Emerson Soares da Silva(1903123)
+
+
 O aplicativo foi lançado por uma fabricante automotiva que lançou os primeiros carros elétricos voadores, o intuito é familiarizar o público com o novo produto, quebrar paradigmas e difundir o marketing por meio dessa ferramenta. A monetização será arrecadada através das viagens. Além disso, os custos serão fomentados pela empresa administradora do holding (conglomerado de empresas), por fazer parte da propaganda.
 
 Análise:
